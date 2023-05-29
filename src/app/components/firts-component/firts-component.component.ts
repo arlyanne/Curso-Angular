@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class FirtsComponentComponent {
 
+  name = 'Maria';
+  age = '28';
+  job = 'Estudante/Desenvolvedora';
+  hobbies = ['Estudar', 'Ler livros', 'Jogar Bola'];
+  car = {
+    name: "Argo",
+    year: "2020"
+  }
 }
