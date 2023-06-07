@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ColdObservable } from 'rxjs/internal/testing/ColdObservable';
 
 @Component({
   selector: 'app-firts-component',
@@ -6,13 +7,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./firts-component.component.css']
 })
 export class FirtsComponentComponent {
-
-  name = 'Maria';
-  age = '28';
-  job = 'Estudante/Desenvolvedora';
-  hobbies = ['Estudar', 'Ler livros', 'Jogar Bola'];
-  car = {
-    name: "Argo",
-    year: "2020"
-  }
+name = 'Matheus Battisti';
+platform = 'Youtube';
+namePag =  'Angular - Hora de Cordar';
+year = '2022';
+duration = '44hrs'
 }

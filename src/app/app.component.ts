@@ -5,26 +5,16 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent {
-  userName = 'Maria Arlyanne';
+export class AppComponent {  
+  dadosUser= 'Dados para Cadastro:';
 
-  dadosUsuario = {
-    email: 'mariaarlyanne@teste.com.br',
-    role: 'Estudante/Programadora',
-    instituicao: 'Unifametro',
-    idade: '28',
-    altura: '1.59',
-    cor: 'Parda,',
-    estadoCivil: 'Namorando',
-    corPreferida: 'Vermelha',
-    time: 'Flamengo',
-    hobbies: 'Estudar, Jogar bola, ler livros'
+  userData = {
+   name: 'Maria Arlyanne',
+   email: 'maria@teste.com.br',
+   role: 'Admin',
+   
 
-
-
-
-
-  }  
+  }
   
-  title = 'curso-angular';
+  title = 'Curso-Angular';
 }
