@@ -1,1 +1,17 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+    margin: 0;
+    padding: 2px;
+    font-family: sans-serif;
+    background-color: #454458;
+    color: white;
+}
+a {
+    background-color: red;
+    color: #000;
+   margin-top: 15px;
+}
+.title {
+   background: #000;
+   color: whitesmoke;
+   padding: 10px;
+}
