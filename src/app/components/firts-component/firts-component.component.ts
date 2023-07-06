@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-firts-component',
@@ -6,17 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./firts-component.component.css']
 })
 export class FirtsComponentComponent {
+
   name = "Maria";
   age = "28";
-  profile = 'Estudante';
+  job = 'Estudante de Programação';
   hobbies = ['Estudar', 'Futebol', 'Ler'] // Utilizando array
   car = {
-    marca: 'FIAT',
-    modelo: 'Argo',
-    motor: '1.0 - Drive',
-    ano: '20/21',
-    cor: 'Vermelha'
+    name: 'Argo',
+    year: '20/21',
+   
   }
-
-
 }

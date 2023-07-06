@@ -3,13 +3,17 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { FirtsComponentComponent } from './components/firts-component/firts-component.component';
-import { FirtsComponent1Component } from './components/firts-component1/firts-component1.component';
+import { ParentDataComponent } from './components/parent-data/parent-data.component';
+import { DirectivesComponent } from './components/directives/directives.component';
+import { IfRenderComponent } from './components/if-render/if-render.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FirtsComponentComponent,
-    FirtsComponent1Component
+    ParentDataComponent,
+    DirectivesComponent,
+    IfRenderComponent
   ],
   imports: [
     BrowserModule

@@ -1,17 +1,17 @@
 * {
+    padding-bottom: 500px;
     margin: 0;
     padding: 2px;
     font-family: sans-serif;
-    background-color: #454458;
-    color: white;
 }
-a {
-    background-color: red;
-    color: #000;
-   margin-top: 15px;
+ a {
+    color:blueviolet;
 }
-.title {
-   background: #000;
-   color: whitesmoke;
-   padding: 10px;
-}
+ body {
+    padding-bottom: 500px;
+ }
+ .class {
+   border-bottom: 1px solid red;
+   padding: 2em;
+   margin-bottom: 1em;
+ }
