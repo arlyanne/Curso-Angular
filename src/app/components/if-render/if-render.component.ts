@@ -8,8 +8,12 @@ import { Component } from '@angular/core';
 export class IfRenderComponent {
  
   canShow: boolean = true;
+  nome = 'Maria';
+  time = 'Flamengo';
+  
+  
 
   constructor () {
-    console.log(this.canShow)
+    
   }
 }
