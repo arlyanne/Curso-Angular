@@ -6,11 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./eventos.component.css']
 })
 export class EventosComponent {
-show: boolean = true;
+show: boolean = false;
 
-showMessage(): void {
-  this.show = false
+showMessage (): void {
+  this.show = !this.show; //toggle
 }
-
 
 }

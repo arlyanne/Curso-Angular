@@ -2,13 +2,14 @@
     <h2>Meu Quarto Componente (Renderização Condicional)</h2>
     <h3>Diretiva ngIF</h3>
     <div *ngIf="canShow">Estamos mostrando isso porque foi permitido</div>
-    <div *ngIf="nome === 'OtoPatamar'; else nomeNotFound">O nome é Maria</div>
+    <div *ngIf="nome === 'Maria'; else nomeNotFound">O nome é Maria</div>
     <ng-template #nomeNotFound>
         <div>
             Nome não condiz com nome nos nosso banco de dados
         </div>
     </ng-template>
-    <div *ngIf="time === 'derby'; else timeNotFound">O maior time do mundo é o Flamengo</div>
+
+    <div *ngIf="time === 'Flamengo'; else timeNotFound">O maior time do mundo é o Flamengo</div>
     <ng-template #timeNotFound>
         <div> Não sabe o que é Futebol!</div>
     </ng-template>
